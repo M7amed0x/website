@@ -1,0 +1,142 @@
+/*  */
+
+/* ############################################################################################################################################### */
+ 
+@media (max-width: 768px) {
+    .container {
+        width: 750px;
+    } 
+} 
+
+@media (max-width: 992px) {
+    .container {
+        width: 970px;
+    }
+} 
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+} 
+
+/* ############################################################################################################################################### */
+
+
+@media (max-width:1200px) {
+    .header .links ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 700px;
+        margin-top: 20px;
+        background-color: black;
+        width: 240px;
+        display: none;
+        height: 252px;
+    }
+
+    .header .links ul li a {
+        position: relative;
+        right: 60px;
+        bottom: 20px;
+    }
+
+    .header .links:hover ul {
+        display: block;
+    }
+
+    .header .links .icon .fa-bars {
+        color: #FFFFFF;
+    }
+
+    .header .links ul li a {
+        display: inline-block;
+        margin-right: 20px;
+        height: 43px;
+    }
+    .header .links .icon{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        top: 20px;
+        right: 230px;
+    }
+
+    .header .features {
+        padding-left: 165px;
+    }
+}
+
+/* ######################################################################################################################################### */
+
+
+@media (max-width: 1200px) {
+    .services .container .con {
+        max-width: 80%;
+    }
+
+    .services .container .srv h3 {
+        margin-right: 19vw;
+    }
+
+    .hr {
+        margin-right: 0;
+        max-width: 84%;
+        position: relative;
+        left: 77%;
+    }
+
+    .right,
+    .left {
+        max-width: 80%;
+        position: relative;
+        left: 76vw;
+    }
+
+    .blog {
+        position: relative;
+        top: 50%;
+        left: 84%;
+    }
+
+    .blog .container {
+        background-color: black;
+    }
+
+    .about {
+        display: grid;
+    }
+
+    .about .txt h3 {
+        margin-right: 5%;
+    }
+
+    .about .txt p {
+        margin-right: 50%;
+    }
+
+    .about .container .text img {
+        max-width: 45%;
+        margin-top: -2%;
+    }
+
+    .lef {
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .contact {
+        display: grid;
+    }
+
+    .footer {
+        width: 270%;
+    }
+}
+
+
+
+
+
